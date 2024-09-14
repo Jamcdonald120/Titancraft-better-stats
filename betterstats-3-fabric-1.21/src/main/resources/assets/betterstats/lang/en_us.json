@@ -45,8 +45,6 @@
 	"betterstats.api.util.enumerations.filtergroupby.default": "Default",
 	"betterstats.api.util.enumerations.filtergroupby.mod": "Mod",
 	
-	"betterstats.api.client.gui.stats.widget.mobstatwidget.kills": "Killed",
-	"betterstats.api.client.gui.stats.widget.mobstatwidget.deaths": "Died to",
 	"betterstats.api.client.gui.stats.widget.playerbadgestatwidget.obtained": "Obtained",
 	"betterstats.api.client.gui.stats.widget.generalstatwidget.value": "Value",
 	
@@ -63,6 +61,10 @@
 	"betterstats.config.allow_stats_sharing.tooltip": "Allows the server to share your statistics with third-parties such as other players on the server. Please do note that anyone running the server is capable of modding the server in a way that ignores this preference. So while this shouldn't happen, I do wish to inform you that it is possible.",
 	"betterstats.config.register_commands": "Register commands",
 	"betterstats.config.enable_sas": "Enable stat announcement system",
+	"betterstats.config.wide_stats_panel": "Wide statistics panel",
+	"betterstats.config.wide_stats_panel.tooltip": "I paid for the whole monitor, I will use the whole monitor.",
+	"betterstats.config.centered_stats_panel": "Centered statistics panel",
+	"betterstats.config.centered_stats_panel.tooltip": "When enabled, the statistics panel (aka the entire GUI) is centered on the screen.\nHas no effect and does nothing when \"Wide statistics panel\" is enabled.",
 	
 	"betterstats.player_badge.dedication.title": "Dedication",
 	"betterstats.player_badge.dedication.description": "You've shown true dedication! You have played on this world for at least 12 days (288 hours).",
@@ -110,5 +112,30 @@
 	"betterstats.gui.tpsbs.tab.qs.abuse_notice": "To prevent spam and abuse, rate-limits and other limitations may apply.",
 	"betterstats.gui.tpsbs.tab.qs.step_1": "§eStep 1:\n§7Click the button to quickly share the statistics file you are currently viewing. After that, the stats get uploaded, and you are given a 'quick-share code'.",
 	"betterstats.gui.tpsbs.tab.qs.step_2": "§eStep 2:\n§7The person intended to view the shared statistics then types in the 'quick-share code', and clicks on the button to download and view the shared statistics.",
-	"betterstats.gui.tpsbs.tab.qs.step_2.enter_qscode": "Enter the quick-share code here"
+	"betterstats.gui.tpsbs.tab.qs.step_2.enter_qscode": "Enter the quick-share code here",
+	
+	
+	"betterstats.gui.qs_screen.upload.title": "Uploading quick-share statistics...",
+	"betterstats.gui.qs_screen.upload.stage_n1": "Failed to upload statistics",
+	"betterstats.gui.qs_screen.upload.stage_0": "Preparting to upload the statistics...",
+	"betterstats.gui.qs_screen.upload.stage_1": "Fetching better-stats API endpoint URLs...",
+	"betterstats.gui.qs_screen.upload.stage_2": "Fetching cloud upload API endpoint URL...",
+	"betterstats.gui.qs_screen.upload.stage_3": "Uploading statistics to the cloud...",
+	"betterstats.gui.qs_screen.upload.stage_4": "Done. Your quick-share code is: %s",
+	
+	"betterstats.gui.qs_screen.download.title": "Downloading quick-share statistics...",
+	"betterstats.gui.qs_screen.download.stage_n1": "Failed to download statistics",
+	"betterstats.gui.qs_screen.download.stage_0": "Preparting to download the statistics...",
+	"betterstats.gui.qs_screen.download.stage_1": "Fetching better-stats API endpoint URLs...",
+	"betterstats.gui.qs_screen.download.stage_2": "Fetching cloud download API endpoint URL...",
+	"betterstats.gui.qs_screen.download.stage_3": "Downloading statistics from the cloud...",
+	"betterstats.gui.qs_screen.download.stage_4": "Done. Loading the downloaded statistics...",
+	
+	"betterstats.gui.qs_screen.err.cmmn.fau.generic": "Failed to fetch BSS API URLs.",
+	"betterstats.gui.qs_screen.err.cmmn.fau.missing_url": "The BSS API URLs are currently undefined/missing.\nAny additional notes are written below (en_us only):\n%s",
+	"betterstats.gui.qs_screen.err.cmmn.fau.http_non200": "Failed to fetch BSS API URLs because the server responded with:\n%s",
+	"betterstats.gui.qs_screen.err.upld.guu.http_non200": "Failed to generate a statistics upload URL because the server responded with:\n%s",
+	"betterstats.gui.qs_screen.err.upld.act.http_non200": "Failed to upload the statistics file because the server responded with:\n%s",
+	"betterstats.gui.qs_screen.err.dwnl.gdu.http_non200": "Failed to generate a statistics download URL because the server responded with:\n%s",
+	"betterstats.gui.qs_screen.err.dwnl.act.http_non200": "Failed to download the statistics file because the server responded with:\n%s"
 }

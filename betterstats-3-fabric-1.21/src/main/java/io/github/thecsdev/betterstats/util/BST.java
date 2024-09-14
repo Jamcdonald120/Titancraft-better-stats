@@ -74,6 +74,10 @@ public final @Internal class BST
 	public static final MutableText config_allowStatsSharing_tooltip()     { return translatable("betterstats.config.allow_stats_sharing.tooltip"); }
 	public static final MutableText config_registerCommands()              { return translatable("betterstats.config.register_commands"); }
 	public static final MutableText config_enableSas()                     { return translatable("betterstats.config.enable_sas"); }
+	public static final MutableText config_wideStatsPanel()                { return translatable("betterstats.config.wide_stats_panel"); }
+	public static final MutableText config_wideStatsPanel_tooltip()        { return translatable("betterstats.config.wide_stats_panel.tooltip"); }
+	public static final MutableText config_centeredStatsPanel()            { return translatable("betterstats.config.centered_stats_panel"); }
+	public static final MutableText config_centeredStatsPanel_tooltip()    { return translatable("betterstats.config.centered_stats_panel.tooltip"); }
 	// --------------------------------------------------
 	public static final MutableText pbadge_dedication_title()       { return translatable("betterstats.player_badge.dedication.title"); }
 	public static final MutableText pbadge_dedication_description() { return translatable("betterstats.player_badge.dedication.description"); }
@@ -117,5 +121,29 @@ public final @Internal class BST
 	public static final MutableText gui_tpsbs_qs_step1()            { return translatable("betterstats.gui.tpsbs.tab.qs.step_1"); }
 	public static final MutableText gui_tpsbs_qs_step2()            { return translatable("betterstats.gui.tpsbs.tab.qs.step_2"); }
 	public static final MutableText gui_tpsbs_qs_step2_entrqscode() { return translatable("betterstats.gui.tpsbs.tab.qs.step_2.enter_qscode"); }
+	// --------------------------------------------------
+	public static final MutableText gui_qsscreen_upload_title()             { return translatable("betterstats.gui.qs_screen.upload.title"); }
+	public static final MutableText gui_qsscreen_upload_stageN1()           { return translatable("betterstats.gui.qs_screen.upload.stage_n1"); }
+	public static final MutableText gui_qsscreen_upload_stage0()            { return translatable("betterstats.gui.qs_screen.upload.stage_0"); }
+	public static final MutableText gui_qsscreen_upload_stage1()            { return translatable("betterstats.gui.qs_screen.upload.stage_1"); }
+	public static final MutableText gui_qsscreen_upload_stage2()            { return translatable("betterstats.gui.qs_screen.upload.stage_2"); }
+	public static final MutableText gui_qsscreen_upload_stage3()            { return translatable("betterstats.gui.qs_screen.upload.stage_3"); }
+	public static final MutableText gui_qsscreen_upload_stage4(Text qsCode) { return translatable("betterstats.gui.qs_screen.upload.stage_4", qsCode); }
+	//
+	public static final MutableText gui_qsscreen_download_title()   { return translatable("betterstats.gui.qs_screen.download.title"); }
+	public static final MutableText gui_qsscreen_download_stageN1()  { return translatable("betterstats.gui.qs_screen.download.stage_n1"); }
+	public static final MutableText gui_qsscreen_download_stage0()  { return translatable("betterstats.gui.qs_screen.download.stage_0"); }
+	public static final MutableText gui_qsscreen_download_stage1()  { return translatable("betterstats.gui.qs_screen.download.stage_1"); }
+	public static final MutableText gui_qsscreen_download_stage2()  { return translatable("betterstats.gui.qs_screen.download.stage_2"); }
+	public static final MutableText gui_qsscreen_download_stage3()  { return translatable("betterstats.gui.qs_screen.download.stage_3"); }
+	public static final MutableText gui_qsscreen_download_stage4()  { return translatable("betterstats.gui.qs_screen.download.stage_4"); }
+	//
+	public static final MutableText gui_qsscreen_err_cmmn_fau_generic()                  { return translatable("betterstats.gui.qs_screen.err.cmmn.fau.generic"); }
+	public static final MutableText gui_qsscreen_err_cmmn_fau_mssngUrl(String adtnNotes) { return translatable("betterstats.gui.qs_screen.err.cmmn.fau.missing_url", adtnNotes); }
+	public static final MutableText gui_qsscreen_err_cmmn_fau_httpN200(String serverRes) { return translatable("betterstats.gui.qs_screen.err.cmmn.fau.http_non200", serverRes); }
+	public static final MutableText gui_qsscreen_err_upld_guu_httpN200(String serverRes) { return translatable("betterstats.gui.qs_screen.err.upld.guu.http_non200", serverRes); }
+	public static final MutableText gui_qsscreen_err_upld_act_httpN200(String serverRes) { return translatable("betterstats.gui.qs_screen.err.upld.act.http_non200", serverRes); }
+	public static final MutableText gui_qsscreen_err_dwnl_gdu_httpN200(String serverRes) { return translatable("betterstats.gui.qs_screen.err.dwnl.gdu.http_non200", serverRes); }
+	public static final MutableText gui_qsscreen_err_dwnl_act_httpN200(String serverRes) { return translatable("betterstats.gui.qs_screen.err.dwnl.act.http_non200", serverRes); }
 	// ==================================================
 }
